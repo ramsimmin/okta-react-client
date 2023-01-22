@@ -13,7 +13,7 @@ function SideMenu() {
             <Menu theme="dark"
                 onClick={
                     ({ key }) => {
-                        if (key != "/logout") {
+                        if (key !== "/logout") {
                             navigate(key);
                         }
                     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { LoginCallback, } from '@okta/okta-react';
 import Home from '../pages/Home';
 import Dashboard from '../pages/Dashboard';

@@ -8,7 +8,7 @@ import SideMenu from './SideMenu';
 
 const { Header, Footer, Sider, Content } = Layout;
 
-function RequiredAuth2() {
+function RequiredAuth() {
   const { oktaAuth, authState } = useOktaAuth();
 
   useEffect(() => {
@@ -51,4 +51,4 @@ function RequiredAuth2() {
 
 }
 
-export default RequiredAuth2;
+export default RequiredAuth;
